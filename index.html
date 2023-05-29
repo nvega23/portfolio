@@ -6,6 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
         <link rel="icon" type="image/x-icon" href="./images/nvega.png"/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-calendar/dist/github-calendar.css" />
+		<script src="https://cdn.jsdelivr.net/npm/github-calendar/dist/github-calendar.min.js"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-TB8KQK5N5V"></script>
@@ -61,14 +63,17 @@
 						<header>
 							<h2>Nestor Vega</h2>
 							<p>An enthusiastic software engineer with a full-stack skill set.</p>
-							<img src="../images/green.png" width="300px" alt="">
+							<!-- <img src="../images/green.png" width="300px" alt=""> -->
 						</header>
 						<span class="image">
 							<a style="height: inherit;" target="_blank" href="https://docs.google.com/document/d/1fr1APySTI9JCyNRvf-Oec5VS5XWyQMN34e5pUn8VW4M/edit?usp=sharing">
-								<!-- <img class="masthead-avatar mb-5" src="assets/img/proMe2.png" alt="..." /> -->
 								<img class="masthead-avatar mb-5" src="images/proMe3.png" alt="" />
 							</a>
 						</span>
+						<div id="github-calendar"></div>
+						<script>
+							new GitHubCalendar("#github-calendar", "nvega23", { responsive: true, tooltips: true });
+						</script>
 					</div>
 					<a href="#one" class="goto-next scrolly">Next</a>
 				</section>
@@ -162,7 +167,7 @@
 				</section>
 
 			<!-- Three -->
-				<section id="three" class="spotlight style3 right">
+				<section id="three" class="spotlight style3 left">
 					<span class="image fit main bottom"><img src="images/game.png" alt="" /></span>
 					<div class="content">
 						<header>
@@ -182,7 +187,7 @@
 					<a href="#four" class="goto-next scrolly">Next</a>
 				</section>
 
-				<section id="two" class="spotlight left">
+				<section id="two" class="spotlight right">
 					<span class="image fit main bottom">
 						<img src="images/calc.png" alt="" />
 						<!-- <video src="images/cloud.mp4" autoplay loop controls></video> -->
@@ -206,7 +211,7 @@
 				</section>
 
 			<!-- Four -->
-				<section id="two" class="spotlight style1 right">
+				<section id="two" class="spotlight style1 left">
 					<span class="image fit main bottom"><img src="images/fj.png" alt="" /></span>
 					<div class="content">
 						<header>

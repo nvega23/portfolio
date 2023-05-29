@@ -2946,23 +2946,32 @@ input, select, textarea {
 		white-space: nowrap;
 		width: 10em;
 		z-index: 1;
+		animation: bounce 1s infinite;
 	}
 
-		.goto-next:before {
-			background-image: url("images/arrow.svg");
-			background-position: center center;
-			background-repeat: no-repeat;
-			background-size: contain;
-			content: '';
-			display: block;
-			height: 1.5em;
-			left: 50%;
-			margin: -0.75em 0 0 -1em;
-			position: absolute;
-			top: 50%;
-			width: 2em;
-			z-index: 1;
+	.goto-next:before {
+		background-image: url("images/arrow.svg");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		content: '';
+		display: block;
+		height: 2.5em;
+		left: 50%;
+		margin: -2.75em 0 0 -1em;
+		position: absolute;
+		top: 50%;
+		width: 2em;
+		z-index: 1;
+	}
+	@keyframes bounce {
+		0%, 100% {
+		  transform: translateY(0);
 		}
+		50% {
+		  transform: translateY(-10px);
+		}
+	  }
 
 /* Spotlight */
 
@@ -4117,3 +4126,11 @@ input, select, textarea {
 					}
 
 	}
+
+#github-calendar{
+	border: 5px solid black;
+	background-color: black;
+	color: greenyellow;
+	border-radius: 10px;
+	margin: 5px;
+}
