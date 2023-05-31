@@ -4133,3 +4133,43 @@ input, select, textarea {
 	border-radius: 10px;
 	margin: 5px;
 }
+
+.goto-next-dark {
+	border: 0;
+	bottom: 0;
+	display: block;
+	height: 5em;
+	left: 50%;
+	margin: 0 0 0 -5em;
+	overflow: hidden;
+	position: absolute;
+	text-indent: 10em;
+	white-space: nowrap;
+	width: 10em;
+	z-index: 1;
+	animation: bounce 1s infinite;
+}
+
+.goto-next-dark:before {
+	background-image: url("images/double_down.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	content: '';
+	display: block;
+	height: 2.5em;
+	left: 50%;
+	margin: -2.75em 0 0 -1em;
+	position: absolute;
+	top: 50%;
+	width: 2em;
+	z-index: 1;
+}
+@keyframes bounce {
+	0%, 100% {
+	  transform: translateY(0);
+	}
+	50% {
+	  transform: translateY(-10px);
+	}
+}
