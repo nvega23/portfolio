@@ -3148,19 +3148,39 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
+			background: rgba(0, 0, 0, 0.68);
 			border-color: #e44c65;
 		}
 
 		.spotlight.style2 .content {
+			background: rgba(0, 0, 0, 0.68);
 			border-color: #5480f1;
 		}
 
 		.spotlight.style3 .content {
+			background: rgba(0, 0, 0, 0.68);
 			border-color: #39c088;
 		}
 
 		.spotlight.style4 .content {
+			background: rgba(0, 0, 0, 0.68);
 			border-color: #fa541c;
+		}
+
+		.spotlight.style5 .content {
+			background: rgba(0, 0, 0, 0.68);
+			border-color: black;
+		}
+
+		.spotlight.style6 .content {
+			background: rgba(0, 0, 0, 0.68);
+			border-color: #ffffff;
+		}
+
+		.spotlight.style6 .content {
+			background: rgba(0, 0, 0, 0.68);
+			font-size: 2vh;
+			font-weight: 800;
 		}
 
 		.spotlight.inactive .content {
