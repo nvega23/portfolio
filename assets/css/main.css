@@ -4202,6 +4202,15 @@ input, select, textarea {
 	color: black;
 }
 
+.containerAroundArrow{
+	display: flex;
+	justify-content: center;
+	font-size: 2vh;
+	font-weight: 500;
+	align-items: center;
+	height: inherit;
+}
+
 @keyframes bounce {
 	0%, 100% {
 	  transform: translateY(0);
